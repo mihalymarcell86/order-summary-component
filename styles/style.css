@@ -27,6 +27,11 @@ body {
     background-image: url("../images/pattern-background-desktop.svg");
   }
 }
+@media (min-width: 1440px) {
+  body {
+    background-size: 100%;
+  }
+}
 
 .card {
   background-color: white;
